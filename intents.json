@@ -1,0 +1,491 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hello",
+            "Hi",
+            "Hey there",
+            "Good morning",
+            "Good afternoon",
+            "How can you help me today?",
+            "Hey, I need some help"
+            
+         ],
+         "responses": [
+            "Hello! I'm here to help you with any questions about brain tumors. What would you like to know?",
+            "Hi there! I can provide information on brain tumors, from symptoms to treatments. How can I assist you today?",
+            "Hey! I'm happy to chat about brain tumors and related topics. What’s on your mind?",
+            "Good morning! If you have questions about brain tumors, I’m here to help. What do you need?",
+            "Good afternoon! Let’s talk about brain tumors—whether it’s about diagnosis, treatment, or support, I’ve got you covered."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "goodbye",
+         "patterns": [
+            "Goodbye",
+            "See you later",
+            "Bye bye",
+            "I’m leaving",
+            "Thanks, I’m done",
+            "Catch you later",
+            "I have to go now",
+            "Talk to you soon"
+         ],
+         "responses": [
+            "Goodbye! Wishing you all the best, and feel free to return if you have more questions about brain tumors.",
+            "See you later! Stay safe, and don’t hesitate to reach out if you need more information.",
+            "Bye bye! I hope I was helpful. Take care, and I’m here if you need to talk again.",
+            "Thanks for chatting! Wishing you strength on your journey with brain tumor concerns.",
+            "Catch you later! If you need more support or information, I’ll be here for you."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "thanks",
+         "patterns": [
+            "Thank you",
+            "Thanks a lot",
+            "I appreciate it",
+            "Thanks for the help",
+            "Thank you so much",
+            "You’ve been helpful",
+            "Grateful for your assistance",
+            "Thanks for the info"
+         ],
+         "responses": [
+            "You’re very welcome! I’m glad I could help with your brain tumor questions.",
+            "My pleasure! If you have more questions about brain tumors, I’m here for you.",
+            "I’m happy to assist! Let me know if you need more information or support.",
+            "No problem at all! Wishing you the best, and I’m here if you need to talk more about brain tumors.",
+            "You’re welcome! I’m always here to help with any brain tumor-related concerns you might have."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_definition",
+         "patterns": [
+            "What is a brain tumor?",
+            "Can you define a brain tumor?",
+            "Tell me about brain tumors",
+            "What does a brain tumor mean?",
+            "Explain what a brain tumor is",
+            "I don’t understand what a brain tumor is"
+         ],
+         "responses": [
+            "A brain tumor is an abnormal growth of cells within the brain or the central spinal canal. These tumors can be benign (non-cancerous) or malignant (cancerous), and they may originate in the brain (primary tumors) or spread from other parts of the body (secondary or metastatic tumors).",
+            "Brain tumors are masses of abnormal cells that grow in the brain. They can disrupt normal brain function depending on their size, location, and growth rate, and they’re classified as either benign, which means non-cancerous, or malignant, which indicates cancerous growth.",
+            "A brain tumor refers to a collection of abnormal cells in the brain that can interfere with brain functions like memory, movement, or sensation. They can be primary, starting in the brain, or secondary, spreading from elsewhere in the body, and they vary widely in severity and treatment options."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_types",
+         "patterns": [
+            "What types of brain tumors are there?",
+            "Can you list different brain tumors?",
+            "What are the kinds of brain tumors?",
+            "Tell me about brain tumor types",
+            "What are some common brain tumors?",
+            "Are there different categories of brain tumors?"
+         ],
+         "responses": [
+            "Brain tumors come in many types. Common ones include gliomas, which include glioblastomas, astrocytomas, and oligodendrogliomas; meningiomas, which are often benign and grow from the meninges; pituitary adenomas, which affect the pituitary gland; and schwannomas, often impacting nerves like the acoustic nerve.",
+            "There are several types of brain tumors, such as gliomas (e.g., glioblastoma, astrocytoma), meningiomas, which are typically benign, medulloblastomas, often found in children, and metastatic tumors that spread from other parts of the body like the lungs or breast.",
+            "Brain tumors are categorized into primary and secondary types. Primary tumors include gliomas (like glioblastoma), meningiomas, and pituitary tumors, while secondary tumors are metastases from cancers elsewhere in the body. Each type varies in aggressiveness and treatment approach."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "glioblastoma_info",
+         "patterns": [
+            "What is a glioblastoma?",
+            "Tell me about glioblastoma",
+            "What’s a glioblastoma brain tumor?",
+            "Can you explain glioblastoma?",
+            "I’ve heard of glioblastoma, what is it?"
+         ],
+         "responses": [
+            "Glioblastoma is an aggressive type of malignant brain tumor, also known as glioblastoma multiforme (GBM). It originates from glial cells in the brain and is known for rapid growth, often infiltrating surrounding brain tissue, making it challenging to treat.",
+            "A glioblastoma is a highly malignant brain tumor classified as a grade IV astrocytoma. It grows quickly, invades nearby brain tissue, and is often treated with a combination of surgery, radiation, and chemotherapy, though it has a high recurrence rate.",
+            "Glioblastoma is one of the most aggressive brain tumors, arising from the supportive tissue of the brain called glial cells. It’s difficult to treat due to its fast growth and tendency to spread within the brain, typically requiring multimodal treatment approaches."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "meningioma_info",
+         "patterns": [
+            "What is a meningioma?",
+            "Tell me about meningiomas",
+            "What’s a meningioma brain tumor?",
+            "Can you explain meningioma?",
+            "I’ve heard of meningioma, what is it?"
+         ],
+         "responses": [
+            "A meningioma is a type of brain tumor that originates from the meninges, the protective layers surrounding the brain and spinal cord. Most meningiomas are benign and slow-growing, but some can be malignant and require surgical removal.",
+            "Meningiomas are tumors that develop from the meninges, the membranes covering the brain and spinal cord. They are often benign, meaning non-cancerous, and may not require immediate treatment unless they cause symptoms by pressing on brain structures.",
+            "A meningioma is typically a benign brain tumor arising from the meninges. It grows slowly and may not cause symptoms for years, but if it presses on brain tissue, surgery or radiation might be needed to manage it."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_symptoms",
+         "patterns": [
+            "What are the symptoms of a brain tumor?",
+            "How do I know if I have a brain tumor?",
+            "What signs should I look for with brain tumors?",
+            "What are brain tumor symptoms like?",
+            "Can you list symptoms of brain tumors?",
+            "What might indicate a brain tumor?"
+         ],
+         "responses": [
+            "Brain tumor symptoms can vary depending on the tumor’s size and location, but common signs include persistent headaches (especially in the morning), seizures, nausea or vomiting, vision or hearing problems, difficulty speaking, memory issues, and changes in personality or behavior.",
+            "Symptoms of a brain tumor might include frequent headaches that worsen over time, seizures, blurred or double vision, hearing loss, balance problems, weakness in limbs, confusion, and personality changes. If you notice these, it’s best to consult a doctor.",
+            "Look out for signs like severe headaches that don’t go away, new-onset seizures, nausea unrelated to stomach issues, vision or hearing changes, trouble with speech or coordination, and cognitive or behavioral changes, which could indicate a brain tumor."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_diagnosis",
+         "patterns": [
+            "How is a brain tumor diagnosed?",
+            "What tests are used to diagnose a brain tumor?",
+            "How do doctors find brain tumors?",
+            "What’s the process for diagnosing a brain tumor?",
+            "Can you tell me about brain tumor diagnosis?",
+            "What scans are used for brain tumors?"
+         ],
+         "responses": [
+            "Brain tumors are diagnosed using imaging tests like an MRI (Magnetic Resonance Imaging) or CT (Computed Tomography) scan to visualize the brain. A neurologist may also perform a neurological exam, and a biopsy might be needed to determine the tumor type.",
+            "Diagnosis often starts with a neurological exam to check vision, hearing, balance, and reflexes, followed by imaging tests such as an MRI or CT scan. In some cases, a biopsy or lumbar puncture is performed to analyze the tumor cells.",
+            "Doctors typically use an MRI scan, often with contrast dye, to detect brain tumors. A CT scan might also be used, and if more detail is needed, a biopsy—where a small sample of the tumor is removed for testing—can confirm the diagnosis."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_treatment",
+         "patterns": [
+            "How are brain tumors treated?",
+            "What are the treatment options for brain tumors?",
+            "What can be done for a brain tumor?",
+            "Tell me about brain tumor treatments",
+            "What therapies are available for brain tumors?",
+            "How do doctors treat brain tumors?"
+         ],
+         "responses": [
+            "Treatment for brain tumors depends on the type, size, and location but often includes surgery to remove the tumor, radiation therapy to target remaining cells, and chemotherapy to kill cancer cells. Other options like targeted therapy or immunotherapy may also be considered.",
+            "Brain tumor treatments can involve surgery to remove as much of the tumor as possible, followed by radiation therapy to shrink the tumor and chemotherapy to kill cancer cells. In some cases, doctors may use stereotactic radiosurgery, like Gamma Knife, for precise targeting.",
+            "The main treatments for brain tumors are surgery, radiation, and chemotherapy. Additional therapies might include targeted drug treatments, immunotherapy to boost the immune system, or clinical trials for new treatments, depending on the tumor’s characteristics."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_surgery",
+         "patterns": [
+            "What happens during brain tumor surgery?",
+            "Can you explain brain tumor surgery?",
+            "What’s involved in brain tumor surgery?",
+            "How is surgery for a brain tumor done?",
+            "What should I expect from brain tumor surgery?",
+            "What are the risks of brain tumor surgery?"
+         ],
+         "responses": [
+            "During brain tumor surgery, a neurosurgeon removes as much of the tumor as possible while preserving healthy brain tissue. This often involves a craniotomy, where part of the skull is opened. Risks include infection, bleeding, or neurological deficits like speech or motor issues.",
+            "Brain tumor surgery typically involves a craniotomy, where the surgeon opens the skull to access the tumor. Advanced techniques like intraoperative MRI or awake surgery may be used to protect brain function. Risks can include swelling, seizures, or changes in brain function.",
+            "In brain tumor surgery, the neurosurgeon aims to remove the tumor safely, often using imaging guidance or mapping to avoid damaging critical areas. Patients may be awake for part of the procedure to monitor brain function. Risks include infection, brain swelling, or loss of neurological abilities."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_radiation",
+         "patterns": [
+            "What is radiation therapy for brain tumors?",
+            "How does radiation work for brain tumors?",
+            "Can you explain radiation treatment for brain tumors?",
+            "What are the side effects of radiation for brain tumors?",
+            "Is radiation effective for brain tumors?",
+            "Tell me about radiation therapy"
+         ],
+         "responses": [
+            "Radiation therapy for brain tumors uses high-energy beams, like X-rays, to target and kill tumor cells or slow their growth. It’s often used after surgery to treat remaining cells. Side effects can include fatigue, hair loss, scalp irritation, and cognitive changes.",
+            "Radiation therapy involves directing focused beams of radiation at the tumor to destroy cancer cells while sparing healthy tissue. Techniques like stereotactic radiosurgery (e.g., Gamma Knife) are precise. Side effects might include nausea, memory issues, and temporary swelling in the brain.",
+            "Radiation for brain tumors aims to shrink the tumor or prevent regrowth by damaging the DNA of cancer cells. It can be delivered externally or, in rare cases, internally (brachytherapy). Common side effects are tiredness, headaches, and sometimes delayed effects like memory or concentration difficulties."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_chemotherapy",
+         "patterns": [
+            "What is chemotherapy for brain tumors?",
+            "How does chemo work for brain tumors?",
+            "Can you explain chemotherapy for brain tumors?",
+            "What are the side effects of chemo for brain tumors?",
+            "Is chemotherapy effective for brain tumors?",
+            "Tell me about chemotherapy"
+         ],
+         "responses": [
+            "Chemotherapy for brain tumors uses drugs like temozolomide to kill cancer cells or stop their growth. It’s often used for malignant tumors like gliomas. Side effects can include nausea, fatigue, hair loss, and a weakened immune system.",
+            "Chemotherapy involves taking drugs, either orally or through IV, that target rapidly dividing cancer cells in the brain. For brain tumors, drugs must cross the blood-brain barrier, which can be challenging. Side effects might include vomiting, low blood counts, and increased infection risk.",
+            "Chemo for brain tumors aims to destroy cancer cells or slow tumor growth, often used alongside radiation. Common drugs include temozolomide or carmustine. Side effects can be significant, such as nausea, fatigue, and potential long-term effects like nerve damage or infertility."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_prognosis",
+         "patterns": [
+            "What is the prognosis for a brain tumor?",
+            "What are the survival rates for brain tumors?",
+            "How long can you live with a brain tumor?",
+            "What’s the outlook for brain tumor patients?",
+            "Can you survive a brain tumor?",
+            "Tell me about brain tumor prognosis"
+         ],
+         "responses": [
+            "The prognosis for a brain tumor varies widely based on factors like the tumor type, grade, location, and the patient’s overall health. Benign tumors like meningiomas often have a good prognosis, while malignant ones like glioblastoma may have a survival of 12-18 months on average with treatment.",
+            "Survival rates for brain tumors depend on the tumor’s characteristics. For example, low-grade gliomas might have a 5-year survival rate of over 80%, while glioblastomas often have a median survival of 15 months. Early detection and treatment improve outcomes significantly.",
+            "The outlook for brain tumor patients can range from excellent for benign, slow-growing tumors to more challenging for aggressive tumors like glioblastoma, where median survival is around 1-2 years even with aggressive treatment. Factors like age and response to therapy play a big role."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_causes",
+         "patterns": [
+            "What causes brain tumors?",
+            "Why do brain tumors develop?",
+            "What leads to brain tumors?",
+            "Are brain tumors caused by genetics?",
+            "Can lifestyle cause brain tumors?",
+            "Tell me about brain tumor causes"
+         ],
+         "responses": [
+            "The exact causes of brain tumors are often unclear, but known risk factors include exposure to ionizing radiation (like from past cancer treatments), genetic conditions like neurofibromatosis, and a family history of brain tumors. Lifestyle factors like diet or cell phone use are not conclusively linked.",
+            "Brain tumors can develop due to genetic mutations that cause cells to grow uncontrollably. Risk factors include radiation exposure, inherited syndromes like Li-Fraumeni syndrome, and in rare cases, a family history of brain tumors. Environmental factors are still being researched.",
+            "While the precise cause of most brain tumors is unknown, they can be linked to genetic changes, radiation exposure, or hereditary conditions. Secondary brain tumors often result from cancers like lung or breast cancer spreading to the brain. Research continues to explore other potential causes."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_prevention",
+         "patterns": [
+            "How can I prevent a brain tumor?",
+            "Can brain tumors be prevented?",
+            "What can I do to avoid a brain tumor?",
+            "Is there a way to stop brain tumors?",
+            "Are brain tumors preventable?",
+            "Tell me about brain tumor prevention"
+         ],
+         "responses": [
+            "There’s no guaranteed way to prevent brain tumors, but you can reduce some risks by avoiding unnecessary exposure to radiation, such as from excessive medical imaging, and staying aware of your family medical history for genetic conditions that might increase risk.",
+            "Brain tumors aren’t fully preventable since many causes are unknown or uncontrollable, like genetics. However, minimizing exposure to ionizing radiation and maintaining overall health through a balanced diet and regular checkups may help lower some risks.",
+            "Prevention of brain tumors is challenging due to their complex causes, but you can take steps like avoiding radiation exposure when possible, being cautious with environmental toxins, and getting regular health screenings if you have a family history of tumors."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_support",
+         "patterns": [
+            "Where can I find support for brain tumor patients?",
+            "Are there support groups for brain tumors?",
+            "How can I get help with a brain tumor?",
+            "What support is available for brain tumor patients?",
+            "Can you recommend brain tumor support resources?",
+            "Tell me about brain tumor support options"
+         ],
+         "responses": [
+            "Support for brain tumor patients is available through organizations like the American Brain Tumor Association (ABTA) or the National Brain Tumor Society (NBTS), which offer resources, support groups, and helplines. Local hospitals often have support groups as well.",
+            "You can find support through groups like the Brain Tumor Foundation, which provides educational resources, or online communities like the ABTA’s Connections support group. Many hospitals also offer counseling and support services for patients and families.",
+            "There are many resources for brain tumor support, including the National Brain Tumor Society’s caregiver programs, online forums like Inspire’s brain tumor community, and local support groups often listed through cancer centers or neurology departments."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_research",
+         "patterns": [
+            "What are the latest advances in brain tumor research?",
+            "Are there new treatments for brain tumors?",
+            "What’s the latest in brain tumor studies?",
+            "Tell me about brain tumor research updates",
+            "What new therapies are being developed for brain tumors?",
+            "Can you share recent brain tumor research?"
+         ],
+         "responses": [
+            "Recent brain tumor research includes advances in immunotherapy, such as CAR-T cell therapy, which trains the immune system to attack tumor cells, and targeted therapies that focus on specific genetic mutations in tumors like gliomas. Clinical trials are also exploring new drug combinations.",
+            "Researchers are making strides in brain tumor treatments, with developments like tumor-treating fields (TTFields), a device that uses electric fields to disrupt tumor growth, and personalized medicine approaches that target specific tumor markers. Gene therapy is another promising area.",
+            "The latest in brain tumor research involves precision medicine, where treatments are tailored to the tumor’s genetic profile, and innovations like focused ultrasound to enhance drug delivery across the blood-brain barrier. Many of these are being tested in clinical trials worldwide."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_clinical_trials",
+         "patterns": [
+            "What are clinical trials for brain tumors?",
+            "Can I join a brain tumor clinical trial?",
+            "How do clinical trials work for brain tumors?",
+            "Are there clinical trials for brain tumor treatments?",
+            "Tell me about brain tumor clinical trials",
+            "What new treatments are in clinical trials?"
+         ],
+         "responses": [
+            "Clinical trials for brain tumors test new treatments, like drugs or therapies, to see if they’re safe and effective. They’re conducted in phases, starting with small groups to test safety and progressing to larger groups to compare against standard treatments. You can find trials through the NBTS or ClinicalTrials.gov.",
+            "You may be eligible for a brain tumor clinical trial if you meet specific criteria, like tumor type or stage. Trials test new therapies, such as immunotherapy or novel drugs. Check with your doctor or resources like the American Brain Tumor Association for trial opportunities.",
+            "Clinical trials are research studies that explore new brain tumor treatments, like targeted therapies or vaccines. They’re conducted in phases to ensure safety and efficacy. Patients can join trials to access cutting-edge treatments, often found through cancer centers or online databases."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_specialist",
+         "patterns": [
+            "What kind of doctor treats brain tumors?",
+            "Who should I see for a brain tumor?",
+            "Which specialist deals with brain tumors?",
+            "Can you recommend a doctor for brain tumors?",
+            "What doctor should I consult for a brain tumor?",
+            "Tell me about brain tumor specialists"
+         ],
+         "responses": [
+            "A neurosurgeon specializes in surgically treating brain tumors, while a neuro-oncologist focuses on managing the tumor with therapies like chemotherapy or radiation. You might also see a neurologist for symptom management or a radiation oncologist for radiation therapy.",
+            "For a brain tumor, you should consult a neurosurgeon for surgical options and a neuro-oncologist for overall treatment planning, including chemotherapy and radiation. Depending on your needs, a team might also include a neurologist and a radiation specialist.",
+            "Brain tumors are treated by specialists like neurosurgeons, who perform surgery, and neuro-oncologists, who oversee non-surgical treatments. You might also work with a multidisciplinary team, including neurologists, radiation oncologists, and palliative care specialists for comprehensive care."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_side_effects",
+         "patterns": [
+            "What are the side effects of brain tumor treatments?",
+            "What can I expect after brain tumor treatment?",
+            "Are there side effects from brain tumor therapy?",
+            "What happens after brain tumor surgery or chemo?",
+            "Tell me about brain tumor treatment side effects",
+            "Can brain tumor treatments cause problems?"
+         ],
+         "responses": [
+            "Brain tumor treatments can cause side effects like fatigue, nausea, and hair loss from chemotherapy; swelling or cognitive changes from radiation; and potential neurological deficits, like speech or motor issues, from surgery. Long-term effects might include memory problems or hormonal changes.",
+            "After brain tumor treatment, you might experience side effects such as tiredness, headaches, or nausea from chemo and radiation, and possibly weakness or speech difficulties post-surgery. Rehabilitation, like physical or speech therapy, can help manage these effects.",
+            "Treatments for brain tumors can lead to side effects, including short-term issues like fatigue, nausea, and scalp irritation from radiation, as well as longer-term challenges like cognitive decline, seizures, or motor deficits, depending on the tumor’s location and treatment intensity."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_coping",
+         "patterns": [
+            "How can I cope with a brain tumor diagnosis?",
+            "What can help me deal with a brain tumor?",
+            "How do I manage life with a brain tumor?",
+            "Can you give tips for coping with a brain tumor?",
+            "What should I do after a brain tumor diagnosis?",
+            "Tell me about coping with a brain tumor"
+         ],
+         "responses": [
+            "Coping with a brain tumor involves building a support network of family, friends, and professionals, joining support groups, and working with a counselor to manage emotional stress. Staying informed about your condition and focusing on self-care, like rest and nutrition, can also help.",
+            "To manage life with a brain tumor, consider connecting with support groups through organizations like the NBTS, seeking therapy to address emotional challenges, and working with your healthcare team on symptom management. Small steps like maintaining a routine can also provide stability.",
+            "Coping tips include finding a support group to share experiences, practicing mindfulness or relaxation techniques to reduce stress, and working closely with your medical team to manage symptoms. It’s also important to communicate openly with loved ones about your needs and feelings."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_children",
+         "patterns": [
+            "What are brain tumors like in children?",
+            "How do brain tumors affect kids?",
+            "Can children get brain tumors?",
+            "What’s different about brain tumors in children?",
+            "Tell me about pediatric brain tumors",
+            "Are brain tumors common in kids?"
+         ],
+         "responses": [
+            "Children can get brain tumors, and they’re actually one of the most common cancers in kids. Common types include medulloblastomas and low-grade gliomas. Symptoms might include headaches, vomiting, balance issues, or developmental delays, and treatments are tailored to minimize long-term effects on growth.",
+            "Pediatric brain tumors differ from adult ones in type and prognosis. Kids often develop tumors like medulloblastomas or ependymomas, which can be treated with surgery, radiation, and chemo, but radiation is used cautiously to avoid impacting brain development. Survival rates are often higher than in adults.",
+            "Brain tumors in children are not uncommon and can present with symptoms like morning headaches, vomiting, irritability, or vision problems. They’re often treated by pediatric neuro-oncologists, and the focus is on balancing effective treatment with preserving the child’s development and quality of life."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "tumor_recurrence",
+         "patterns": [
+            "Can brain tumors come back?",
+            "What is the chance of tumor recurring?",
+            "Do brain tumors return after treatment?",
+            "How likely is it for a brain tumor to return?",
+            "What's the recurrence rate for brain tumors?",
+            "Why do some brain tumors come back?",
+            "How can I prevent my brain tumor from returning?"
+         ],
+         "responses": [
+            "Brain tumor recurrence varies by type. Some tumors, especially aggressive ones like glioblastoma, have higher recurrence rates. Regular follow-up scans and monitoring are essential to detect any signs of recurrence early.",
+            "The likelihood of a brain tumor returning depends on factors like the tumor type, location, and how completely it was removed. Some tumors may recur within months, while others might never come back. Your doctor will create a monitoring plan based on your specific case.",
+            "Tumor recurrence is a possibility that depends on various factors including the tumor grade, genetic markers, and treatment response. Regular monitoring through MRI scans helps detect any recurrence early, allowing for prompt intervention if needed."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "brain_tumor_genetics",
+         "patterns": [
+            "Is my brain tumor genetic?",
+            "Can brain tumors run in families?",
+            "Are brain tumors hereditary?",
+            "What genetic factors cause brain tumors?",
+            "Will my children get brain tumors?",
+            "Should my family be tested for brain tumors?"
+         ],
+         "responses": [
+            "While most brain tumors are not inherited, some can be linked to genetic syndromes like neurofibromatosis, Li-Fraumeni syndrome, or Lynch syndrome. Genetic testing might be recommended if there's a strong family history of brain tumors or cancer.",
+            "About 5-10% of brain tumors are associated with hereditary syndromes. If multiple family members have brain tumors or certain types of cancer, genetic counseling might help understand your risk factors and guide preventive measures.",
+            "Most brain tumors develop spontaneously rather than being inherited. However, certain genetic mutations can increase the risk. A genetic counselor can help assess your family history and determine if genetic testing would be beneficial."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "tumor_location_effects",
+         "patterns": [
+            "How does tumor location affect symptoms?",
+            "What parts of the brain do tumors affect?",
+            "Can tumor location predict symptoms?",
+            "Which brain areas are affected by tumors?",
+            "Does tumor position matter?",
+            "What happens if a tumor is in specific brain area?"
+         ],
+         "responses": [
+            "Tumor location significantly affects symptoms. Frontal lobe tumors may cause personality changes and motor problems, temporal lobe tumors can affect memory and speech, while cerebellar tumors typically impact balance and coordination.",
+            "Different tumor locations cause distinct symptoms. For example, pituitary tumors can affect hormones and vision, brainstem tumors may cause difficulty with basic functions like breathing and heart rate, and occipital tumors often affect vision.",
+            "The brain's different regions control specific functions, so tumor location determines symptoms. Tumors near speech areas may cause language problems, while those near motor areas can cause weakness or paralysis. Your doctor can explain how your tumor's location might affect you."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "alternative_treatments",
+         "patterns": [
+            "Are there natural treatments for brain tumors?",
+            "What alternative therapies help brain tumors?",
+            "Can diet help with brain tumors?",
+            "Are there supplements for brain tumor patients?",
+            "What complementary treatments work?",
+            "Can alternative medicine help brain tumors?"
+         ],
+         "responses": [
+            "While alternative treatments shouldn't replace standard medical care, some complementary approaches like acupuncture or meditation may help manage symptoms. Always discuss any alternative treatments with your healthcare team to ensure they're safe and won't interfere with your primary treatment.",
+            "Some patients find benefit from complementary therapies like meditation for stress, acupuncture for pain, or dietary changes to support overall health. However, these should complement, not replace, conventional treatments. Consult your doctor before starting any alternative therapy.",
+            "While maintaining good nutrition and overall health is important, be cautious with alternative treatments. Some supplements might interfere with chemotherapy or other treatments. Always inform your healthcare team about any complementary approaches you're considering."
+         ],
+         "context": [""]
+      },
+      {
+         "tag": "quality_of_life",
+         "patterns": [
+            "What's life like with a brain tumor?",
+            "Can I work with a brain tumor?",
+            "How will a brain tumor affect my daily life?",
+            "Can I drive with a brain tumor?",
+            "Will I be able to live normally?",
+            "What lifestyle changes should I make?"
+         ],
+         "responses": [
+            "Life with a brain tumor varies greatly depending on the tumor type, location, and treatment effects. Many people maintain good quality of life with proper support and management. Your medical team can help create strategies for handling daily activities and potential challenges.",
+            "Daily life may need adjustments based on your symptoms and treatment. Some people continue working and regular activities, while others need modifications. Issues like driving might be restricted if you have seizures. Occupational therapy can help develop strategies for daily tasks.",
+            "Your lifestyle might need some changes, but many people maintain meaningful activities during and after treatment. Support services, including rehabilitation, counseling, and occupational therapy, can help you adapt to changes and maintain independence when possible."
+         ],
+         "context": [""]
+      }
+   ]
+}
